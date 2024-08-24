@@ -26,8 +26,14 @@ export const MobileNav = () => {
         </SheetTrigger>
         <SheetContent side="left">
           <SheetHeader>
-            <SheetTitle>
-              <Link href="/">Logo</Link>
+            <SheetTitle className="text-left">
+              <Link href="/">
+                <img
+                  src="/main-logo.png"
+                  alt="Visyntro"
+                  className="h-[3vh] md:h-[4.5vh] w-[20vh] md:w-[30vh] ml-[-15px]"
+                />
+              </Link>
             </SheetTitle>
             <SheetDescription>
               <span className="flex items-start flex-col mt-10 space-y-4">
