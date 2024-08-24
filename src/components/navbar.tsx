@@ -16,10 +16,10 @@ const Navbar = () => {
       <div className="py-3 px-1 lg:px-8 flex items-center">
         <div className="flex-1">
           <Link href="/">
-            <img
+                <img
               src="/main-logo.png"
               alt="Visyntro"
-              className="h-[4.5vh] w-[30vh]"
+              className="h-[3vh] md:h-[4.5vh] w-[20vh] md:w-[30vh]"
             />
           </Link>
         </div>
