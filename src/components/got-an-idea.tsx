@@ -20,7 +20,6 @@ export const Idea = () => {
       <div className="hidden md:inline">
         <img src="/untitled.png" className="h-[52vh] w-[52vh]" />
       </div>
-        
     </div>
   );
 };
