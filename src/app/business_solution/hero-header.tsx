@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const HeroHeader = () => {
   return (
-    <div className="h-[50vh] md:h-[55vh] lg:h-[70vh] p-10 bg-white rounded-b-[11rem] drop-shadow-lg flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-64">
+    <div className="h-[50vh] md:h-[55vh] lg:h-[70vh] p-10 bg-white rounded-b-[11rem] drop-shadow-lg flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-32">
       <div className="text-center lg:text-left">
         <h1 className="text-5xl lg:text-6xl font-bold">Business Solutions</h1>
         <p className="text1-gradient font-semibold text-2xl lg:text-4xl mt-5 max-w-sm mx-auto lg:mx-0">
