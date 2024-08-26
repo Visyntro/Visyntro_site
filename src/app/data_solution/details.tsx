@@ -1,3 +1,4 @@
+import { TextEffect } from "@/components/animation-fade";
 import React from "react";
 
 const Details = () => {
@@ -9,13 +10,18 @@ const Details = () => {
             src="/data-image.png"
             className="h-[350px] md:h-[450px] lg:h-[550px]"
             draggable="false"
+            alt="Data Solution"
           />
         </div>
         <div className="sm:w-1/2">
-          <h1 className="text-4xl font-bold max-w-lg sm:text-5xl text-center sm:text-left">
+          <TextEffect
+            per="char"
+            preset="fade"
+            className="text-4xl font-bold max-w-lg sm:text-5xl text-center sm:text-left"
+          >
             <span className="text-[#5674FD]">Data</span> is the new oil; we help
             you refine it into actionable intelligence.
-          </h1>
+          </TextEffect>
         </div>
       </div>
     </div>

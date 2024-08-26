@@ -15,4 +15,8 @@ export const otherServicesConst = [
     label: "Marketing",
     href: "/marketing",
   },
+  {
+    label: "Data Solution",
+    href: "/data_solution",
+  },
 ];

@@ -43,7 +43,7 @@ export const LatestProject = () => {
         <motion.div variants={fadeInVariant} transition={{ duration: 1 }}>
           <PortfolioCard
             fullImage="/portfolio/portfolio-c-4.png"
-            image="/portfolio/portfolio-4.png"
+            image="/portfolio/portfolio-4.jpg"
             title="Mobile Apps"
           />
         </motion.div>
@@ -53,7 +53,7 @@ export const LatestProject = () => {
         >
           <PortfolioCard
             fullImage="/portfolio/portfolio-c-5.png"
-            image="/portfolio/portfolio-5.png"
+            image="/portfolio/portfolio-5.jpg"
             title="Mental Health"
           />
         </motion.div>

@@ -19,7 +19,7 @@ const Portfolio = () => {
       className="mt-28"
     >
       <div>
-        <h1 className="text-6xl font-semibold text-center">Our Portfolio</h1>
+        <h2 className="text-6xl font-semibold text-center">Our Portfolio</h2>
       </div>
 
       <motion.div
@@ -32,32 +32,32 @@ const Portfolio = () => {
         <PortfolioCard
           fullImage="/portfolio/portfolio-c-1.png"
           image="/portfolio/portfolio-1.png"
-          title="Corporate Flyers"
+          title="Corporate Flyer"
         />
         <PortfolioCard
           fullImage="/portfolio/portfolio-c-2.png"
           image="/portfolio/portfolio-2.png"
-          title="Sovereign Estate Winery"
+          title="Branding"
         />
         <PortfolioCard
           fullImage="/portfolio/portfolio-c-3.png"
           image="/portfolio/portfolio-3.png"
-          title="Food Post"
+          title="Social Media Posts"
         />
         <PortfolioCard
           fullImage="/portfolio/portfolio-c-4.png"
-          image="/portfolio/portfolio-4.png"
+          image="/portfolio/portfolio-4.jpg"
           title="Mobile Apps"
         />
         <PortfolioCard
           fullImage="/portfolio/portfolio-c-5.png"
-          image="/portfolio/portfolio-5.png"
-          title="Mental Health"
+          image="/portfolio/portfolio-5.jpg"
+          title="UX Website Design"
         />
         <PortfolioCard
           fullImage="/portfolio/portfolio-c-6.jpg"
           image="/portfolio/portfolio-6.png"
-          title="Jewel Gems"
+          title="Website Development"
         />
       </motion.div>
     </motion.div>

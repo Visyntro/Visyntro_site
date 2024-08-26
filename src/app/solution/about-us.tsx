@@ -1,5 +1,6 @@
 "use client";
 
+import { TextEffect } from "@/components/animation-fade";
 import { motion } from "framer-motion";
 
 const fadeInVariant = {
@@ -31,6 +32,7 @@ export const AboutNew = () => {
             src="/image1.png"
             className="h-[50vh] w-[50vh] md:h-[60vh] md:w-[85vh] lg:h-[80vh] lg:w-[80vh]"
             draggable="false"
+            alt="About Us"
           />
         </motion.div>
         <motion.div
@@ -39,10 +41,14 @@ export const AboutNew = () => {
           variants={fadeInVariant}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          <h1 className="text-[#5674FD] font-bold text-[2rem] md:text-[3rem] lg:text-[4rem] leading-[3rem] lg:leading-[4rem] text-center max-w-4xl md:max-w-3xl">
+          <TextEffect
+            per="char"
+            preset="fade"
+            className="text-[#5674FD] font-bold text-[2rem] md:text-[3rem] lg:text-[4rem] leading-[3rem] lg:leading-[4rem] text-center max-w-4xl md:max-w-3xl"
+          >
             “Just as technology evolves, so do we. Explore our cutting-edge
             features.”
-          </h1>
+          </TextEffect>
         </motion.div>
       </div>
 
@@ -63,6 +69,7 @@ export const AboutNew = () => {
           <img
             src="/test1.png"
             className="h-[20vh] w-[20vh] sm:h-[25vh] sm:w-[25vh]"
+            alt="AI Powered"
           />
           <h1 className="text-white text-lg font-semibold text-center mt-5 max-w-sm mx-auto">
             AI Powered
@@ -78,6 +85,7 @@ export const AboutNew = () => {
           <img
             src="/test2.png"
             className="h-[20vh] w-[20vh] sm:h-[25vh] sm:w-[25vh]"
+            alt="Real-Time Collaboration"
           />
           <h1 className="text-white text-lg font-semibold text-center mt-5 max-w-sm">
             Real-Time Collaboration
@@ -93,6 +101,7 @@ export const AboutNew = () => {
           <img
             src="/test3.png"
             className="h-[20vh] w-[20vh] sm:h-[25vh] sm:w-[25vh]"
+            alt="Smart Integration"
           />
           <h1 className="text-white text-lg font-semibold text-center mt-5 max-w-sm">
             Smart Integration
@@ -108,6 +117,7 @@ export const AboutNew = () => {
           <img
             src="/test4.png"
             className="h-[20vh] w-[20vh] sm:h-[25vh] sm:w-[25vh]"
+            alt="Adaptive Security"
           />
           <h1 className="text-white text-lg font-semibold text-center mt-5 max-w-sm">
             Adaptive Security
