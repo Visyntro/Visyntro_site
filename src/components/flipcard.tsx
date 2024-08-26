@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
-import { Card, CardContent, CardHeader } from "./ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 type Props = {
   title: string;
@@ -18,23 +18,26 @@ const FlipCard = ({ description, imageSrc, title }: Props) => {
   }
 
   return (
-    <div className="w-72 h-72 cursor-pointer">
+    <div className="w-[20rem] lg:w-[22rem] h-[19rem] cursor-pointer">
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
         <Card
-          className="w-72 h-72 drop-shadow-sm border shadow-md text-center flex flex-col items-center justify-center"
+          className="w-[20rem] lg:w-[22rem] h-[19rem] drop-shadow-xl border shadow-lg text-center flex flex-col items-center justify-center"
           onMouseEnter={handleClick}
           onMouseLeave={handleClick}
         >
           <CardHeader>
-            <img src={imageSrc} className="h-[7rem] w-[7rem] mx-auto" />
+            <img
+              src={imageSrc}
+              className="h-[7rem] w-[7rem] mx-auto"
+              alt={title}
+            />
           </CardHeader>
-          <CardContent className="font-semibold text-xl">{title}</CardContent>
+          <CardContent className="font-semibold text-xl mt-5">
+            <CardTitle className="font-bold text-3xl">{title}</CardTitle>
+          </CardContent>
         </Card>
-        <Card
-          className="w-72 h-72 drop-shadow-sm border shadow-md"
-          // onClick={handleClick}
-        >
-          <CardContent className="font-normal text-lg flex items-center justify-center text-center mt-5 font-semibold">
+        <Card className="w-[20rem] lg:w-[22rem] h-[19rem] drop-shadow-xl border shadow-lg text-white bg-[#2563EB]">
+          <CardContent className="text-lg flex items-center justify-center text-center mt-12 font-semibold bg-[#2563EB]">
             {description}
           </CardContent>
         </Card>

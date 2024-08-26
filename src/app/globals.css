@@ -69,10 +69,6 @@
   transform: rotate(280deg);
 }
 
-.bg-custom-gradient {
-  background-image: linear-gradient(to left, #06151e, #1b3a4b, #2c556c);
-}
-
 .bg-custom-gradient-2 {
   background-image: linear-gradient(to right, #dedce8, #d9e2f1);
 }

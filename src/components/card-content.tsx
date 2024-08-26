@@ -18,16 +18,16 @@ export const Cards = ({
   className,
 }: Props) => {
   return (
-    <Card className={`w-72 h-72 shadow-md rounded-2xl bg-[${bgColor}]`}>
+    <Card className={`w-96 h-80 shadow-xl rounded-2xl bg-[${bgColor}]`}>
       <CardContent className="text-left p-5">
-        <CardTitle className="font-bold text-[#5674FD] text-6xl">
+        <CardTitle className="font-bold text-[#5674FD] text-7xl">
           {title}
         </CardTitle>
         <CardDescription className={`text-${textColor}`}>
-          <span className="font-bold mt-3 text-2xl block mb-1 max-w-40">
+          <span className="font-bold mt-3 text-2xl block mb-3 max-w-40">
             {subTitle}
           </span>
-          <span className="mt-5 font-normal text-[15px]">{description}</span>
+          <span className="mt-5 font-normal text-[20px]">{description}</span>
         </CardDescription>
       </CardContent>
     </Card>

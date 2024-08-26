@@ -9,7 +9,7 @@ export const AboutUs = () => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      className="flex flex-col md:flex-row items-center justify-center gap-0 md:gap-10 lg:gap-14 h-[90vh] md:h-[50vh] lg:h-[70vh] bg-[#EEF1FF] rounded-b-[11rem] px-6 sm:px-12 md:px-20 lg:px-44 mb-10 overflow-hidden"
+      className="flex flex-col md:flex-row items-center justify-center gap-0 md:gap-10 lg:gap-12 h-[90vh] md:h-[60vh] lg:h-[70vh] bg-[#EEF1FF] rounded-b-[11rem] px-6 sm:px-12 md:px-20 lg:px-44 mb-10 overflow-hidden"
     >
       <motion.div
         initial={{ opacity: 0 }}
@@ -17,8 +17,8 @@ export const AboutUs = () => {
         transition={{ duration: 1, delay: 0.2 }}
       >
         <img
-          src="person.svg"
-          className="lg:mb-[-6rem] h-[40vh] sm:h-[50vh] md:h-[75vh] lg:h-[520px] w-auto max-w-full mt-[-5rem] md:mt-0"
+          src="/image2.png"
+          className="lg:mb-[-6rem] h-[40vh] sm:h-[50vh] md:h-[75vh] lg:h-[520px] w-full max-w-full mt-[-5rem] md:mt-0"
           alt="About Us"
         />
       </motion.div>
