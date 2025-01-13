@@ -74,7 +74,24 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    function ({ addUtilities }: any) {
+      addUtilities({
+        ".no-spinner::-webkit-inner-spin-button": {
+          "-webkit-appearance": "none",
+          margin: "0",
+        },
+        ".no-spinner::-webkit-outer-spin-button": {
+          "-webkit-appearance": "none",
+          margin: "0",
+        },
+        ".no-spinner": {
+          "-moz-appearance": "textfield",
+        },
+      });
+    },
+  ],
 } satisfies Config;
 
 export default config;

@@ -19,8 +19,8 @@ export const navLinks = [
     label: "Graphic Design",
     href: "/graphic_arts",
   },
-  {
-    label: "Business Solution",
-    href: "/business_solution",
-  },
+  // {
+  //   label: "Business Solution",
+  //   href: "/business_solution",
+  // },
 ];
