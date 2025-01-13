@@ -70,6 +70,7 @@ export const OurOffering = () => {
               transition={{ duration: 1.5 }} // Adjust duration for slower animation
             >
               <Cards
+                key={title}
                 bgColor={bgColor}
                 description={description}
                 subTitle={subTitle}

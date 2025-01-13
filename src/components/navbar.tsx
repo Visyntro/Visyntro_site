@@ -7,6 +7,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MobileNav } from "./mobile-nav";
 import { cn } from "@/lib/utils";
+import RegistrationForm from "./RegistrationForm";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -40,11 +41,11 @@ const Navbar = () => {
               </h2>
             </Link>
           ))}
-          <Link href="/">
-            <Button className="rounded-full font-semibold bg-blue-600 hover:bg-blue-500">
-              Get in Touch
-            </Button>
-          </Link>
+
+          <RegistrationForm
+            name="Get in Touch"
+            className="rounded-full font-semibold bg-blue-600 hover:bg-blue-500"
+          />
         </div>
         <MobileNav />
       </div>

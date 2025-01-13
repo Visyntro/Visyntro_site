@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import { Mail, Phone } from "lucide-react";
 import Link from "next/link";
 import { navLinks } from "../../constant/navLinks";
+import RegistrationForm from "./RegistrationForm";
 
 const Footer = () => {
   return (
@@ -17,9 +18,10 @@ const Footer = () => {
           </p>
         </div>
         <div className="">
-          <Button className="hidden md:flex bg-[#FFEB00] hover:bg-[#FFEB00] rounded-3xl text-black font-bold text-2xl py-6 lg:mr-48">
-            Consult Now
-          </Button>
+          <RegistrationForm
+            name="Consult Now"
+            className="hidden md:flex bg-[#FFEB00] hover:bg-[#FFEB00] rounded-3xl text-black font-bold text-2xl py-6 lg:mr-48"
+          />
         </div>
       </div>
 

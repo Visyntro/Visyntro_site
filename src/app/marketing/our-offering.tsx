@@ -14,6 +14,7 @@ export const OurOffering = () => {
         {marketingContent.map(
           ({ bgColor, description, subTitle, textColor, title }) => (
             <Cards
+              key={title}
               bgColor={bgColor}
               description={description}
               subTitle={subTitle}
