@@ -2,7 +2,7 @@ export const marketingContent = [
   {
     bgColor: "#EBEFFF",
     description:
-      "Build a strong online presence with our custom website development for top functionality, design, and speed.",
+      "Engaging audiences through personalized emails to drive conversions and build loyalty.",
     subTitle: "Email Marketing",
     textColor: "black",
     title: "01",
@@ -10,7 +10,7 @@ export const marketingContent = [
   {
     bgColor: "#061451",
     description:
-      "Create cutting-edge mobile apps for a seamless experience across all devices and platforms.",
+      "Driving traffic through paid ads with cost-effective pay-per-click strategies.",
     subTitle: "PPC Campaign",
     textColor: "white",
     title: "02",
@@ -18,7 +18,7 @@ export const marketingContent = [
   {
     bgColor: "#EBEFFF",
     description:
-      "Boost user satisfaction with our UI/UX design, focusing on intuitive navigation and visual appeal.",
+      "Developing engaging, high-quality content to attract and retain target audiences.",
     subTitle: "Content Creation",
     textColor: "black",
     title: "03",
@@ -26,7 +26,7 @@ export const marketingContent = [
   {
     bgColor: "#061451",
     description:
-      "Integrate smart chatbots for 24/7 customer support and streamlined interactions.",
+      "Enhancing website visibility and ranking on search engine result pages.",
     subTitle: "Search Engine Optimization",
     textColor: "white",
     title: "04",
@@ -34,7 +34,7 @@ export const marketingContent = [
   {
     bgColor: "#EBEFFF",
     description:
-      "Use our CRM solutions to enhance customer interactions, relationships, and retention.",
+      "Promoting brands through targeted campaigns on social media platforms.",
     subTitle: "Social Media Marketing (SMM)",
     textColor: "black",
     title: "05",
@@ -42,7 +42,7 @@ export const marketingContent = [
   {
     bgColor: "#061451",
     description:
-      "Use our cloud services to optimize IT for scalability, flexibility, and cost-efficiency.",
+      "Improving social media profiles for better engagement and reach.",
     subTitle: "Social  Media Optimization (SMO)",
     textColor: "white",
     title: "06",

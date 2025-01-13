@@ -1,8 +1,8 @@
 export const otherServicesConst = [
-  {
-    label: "Business Solution",
-    href: "/business_solution",
-  },
+  // {
+  //   label: "Business Solution",
+  //   href: "/business_solution",
+  // },
   {
     label: "IT Solution",
     href: "/solution",

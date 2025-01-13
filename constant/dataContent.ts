@@ -2,7 +2,7 @@ export const dataContent = [
   {
     bgColor: "#EBEFFF",
     description:
-      "Build a strong online presence with our custom website development for top functionality, design, and speed.",
+      "Leveraging data, algorithms, and statistical models to predict future trends and outcomes.",
     subTitle: "Predictive Analysis",
     textColor: "black",
     title: "01",
@@ -10,7 +10,7 @@ export const dataContent = [
   {
     bgColor: "#061451",
     description:
-      "Create cutting-edge mobile apps for a seamless experience across all devices and platforms.",
+      "Enabling machines to understand, interpret, and respond to human language intelligently.",
     subTitle: "Natural Language Processing",
     textColor: "white",
     title: "02",
@@ -18,7 +18,7 @@ export const dataContent = [
   {
     bgColor: "#EBEFFF",
     description:
-      "Boost user satisfaction with our UI/UX design, focusing on intuitive navigation and visual appeal.",
+      "Creating algorithms for systems to learn, adapt, and improve autonomously over time.",
     subTitle: "Machine Learning Development",
     textColor: "black",
     title: "03",
@@ -26,7 +26,7 @@ export const dataContent = [
   {
     bgColor: "#061451",
     description:
-      "Integrate smart chatbots for 24/7 customer support and streamlined interactions.",
+      "Using AI to analyze data and drive strategic, data-informed business decisions.",
     subTitle: "AI-Powered Business Intelligence",
     textColor: "white",
     title: "04",
@@ -34,7 +34,7 @@ export const dataContent = [
   {
     bgColor: "#EBEFFF",
     description:
-      "Use our CRM solutions to enhance customer interactions, relationships, and retention.",
+      "Guiding businesses to integrate AI for smarter, efficient digital processes.",
     subTitle: "AI & Digital Transformation Consulting",
     textColor: "black",
     title: "05",
@@ -42,7 +42,7 @@ export const dataContent = [
   {
     bgColor: "#061451",
     description:
-      "Use our cloud services to optimize IT for scalability, flexibility, and cost-efficiency.",
+      "Ensuring AI systems adhere to ethical standards and legal regulations.",
     subTitle: "Ethics & Compliance in AI",
     textColor: "white",
     title: "06",

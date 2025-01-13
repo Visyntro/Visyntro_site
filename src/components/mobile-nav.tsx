@@ -8,12 +8,12 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
 import Link from "next/link";
-import { navLinks } from "../../constant/navLinks";
-import { Button } from "./ui/button";
 import { usePathname } from "next/navigation";
-import { cn } from "@/lib/utils";
+import { navLinks } from "../../constant/navLinks";
+import RegistrationForm from "./RegistrationForm";
 
 export const MobileNav = () => {
   const pathname = usePathname();
@@ -56,11 +56,10 @@ export const MobileNav = () => {
                     </span>
                   </Link>
                 ))}
-                <Link href="/" className="">
-                  <Button className="rounded-lg ml-[-5px] font-semibold bg-blue-600 mt-40 hover:bg-blue-500 w-full focus-within:outline-none outline-none focus:outline-none focus-visible:ring-0">
-                    Get in Touch
-                  </Button>
-                </Link>
+                <RegistrationForm
+                  name="Get in Touch"
+                  className="rounded-lg ml-[-5px] font-semibold bg-blue-600 mt-40 hover:bg-blue-500 w-full focus-within:outline-none outline-none focus:outline-none focus-visible:ring-0"
+                />
               </span>
             </SheetDescription>
           </SheetHeader>

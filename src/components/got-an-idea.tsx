@@ -1,4 +1,4 @@
-import { Button } from "./ui/button";
+import RegistrationForm from "./RegistrationForm";
 
 export const Idea = () => {
   return (
@@ -9,16 +9,19 @@ export const Idea = () => {
           solutions
         </h1>
         <div className="flex flex-col md:flex-row gap-5 mt-5 items-center justify-center md:items-start md:justify-start md:mt-10">
-          {/* <Button className="bg-[#5674FD] hover:bg-[#5674FD] text-lg rounded-full w-full py-6">
-            <a href="mailto:visyntro@outlook.com">Free Consultation</a>
-          </Button> */}
-          <Button className="bg-[#5674FD] hover:bg-[#5674FD] text-2xl font-semibold rounded-full py-7 px-10">
-            Consult Now
-          </Button>
+          <RegistrationForm
+            name="Consult Now"
+            className="bg-[#5674FD] hover:bg-[#5674FD] text-2xl font-semibold rounded-full py-7 px-10"
+          />
         </div>
       </div>
       <div className="hidden md:inline">
-        <img src="/untitled.png" className="h-[52vh] w-[52vh]" alt="Consult" />
+        <img
+          src="/untitled.png"
+          className="h-[52vh] w-[52vh]"
+          alt="Consult"
+          draggable="false"
+        />
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import RegistrationForm from "@/components/RegistrationForm";
 
 const HeroHeader = () => {
   return (
@@ -11,9 +12,10 @@ const HeroHeader = () => {
           classic and AI art.
         </p>
 
-        <Button className="mt-10 rounded-3xl font-semibold text-lg bg-[#5674FD] hover:bg-[#5674FD] shadow-sm w-[80%] lg:w-[30vh]">
-          <a href="mailto:visyntro@outlook.com">Consult Now</a>
-        </Button>
+        <RegistrationForm
+          name="Consult Now"
+          className="mt-10 rounded-3xl font-semibold text-lg bg-[#5674FD] hover:bg-[#5674FD] shadow-sm w-[80%] lg:w-[30vh]"
+        />
       </div>
 
       <div className="hidden lg:block">

@@ -1,4 +1,4 @@
-import { Button } from "./ui/button";
+import RegistrationFrom from "./RegistrationForm";
 
 export const HeroSection = () => {
   return (
@@ -19,9 +19,10 @@ export const HeroSection = () => {
             Empowering business solutions with Expert Services
           </h1>
 
-          <Button className="mt-5 sm:mt-7 py-5 sm:py-6 px-6 sm:px-8 text-black rounded-full bg-white hover:bg-white font-semibold text-lg sm:text-xl hover:scale-105 transition-all duration-150">
-            <a href="mailto:visyntro@outlook.com">Consult Now</a>
-          </Button>
+          <RegistrationFrom
+            name="Consult Now"
+            className="mt-5 sm:mt-7 py-5 sm:py-6 px-6 sm:px-8 text-black rounded-full bg-white hover:bg-white font-semibold text-lg sm:text-xl hover:scale-105 transition-all duration-150"
+          />
         </div>
       </div>
     </div>

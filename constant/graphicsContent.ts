@@ -2,7 +2,7 @@ export const graphicsContent = [
   {
     bgColor: "#EBEFFF",
     description:
-      "Build a strong online presence with our custom website development for top functionality, design, and speed.",
+      "Developing a comprehensive brand strategy, including logo, messaging, and visuals.",
     subTitle: "Full Branding",
     textColor: "black",
     title: "01",
@@ -10,7 +10,7 @@ export const graphicsContent = [
   {
     bgColor: "#061451",
     description:
-      "Create cutting-edge mobile apps for a seamless experience across all devices and platforms.",
+      "Crafting visual identities that reflect a company's brand and values.",
     subTitle: "Corporate Design",
     textColor: "white",
     title: "02",
@@ -18,7 +18,7 @@ export const graphicsContent = [
   {
     bgColor: "#EBEFFF",
     description:
-      "Boost user satisfaction with our UI/UX design, focusing on intuitive navigation and visual appeal.",
+      "Managing and optimizing social media profiles to engage audiences and build brand presence.",
     subTitle: "Social Media",
     textColor: "black",
     title: "03",
@@ -26,7 +26,7 @@ export const graphicsContent = [
   {
     bgColor: "#061451",
     description:
-      "Integrate smart chatbots for 24/7 customer support and streamlined interactions.",
+      "Enhancing and transforming images to meet desired aesthetic or functional goals.",
     subTitle: "Photo Editing",
     textColor: "white",
     title: "04",
@@ -34,7 +34,7 @@ export const graphicsContent = [
   {
     bgColor: "#EBEFFF",
     description:
-      "Use our CRM solutions to enhance customer interactions, relationships, and retention.",
+      "Creating visual representations of data to simplify complex information.",
     subTitle: "Infographics",
     textColor: "black",
     title: "05",
@@ -42,7 +42,7 @@ export const graphicsContent = [
   {
     bgColor: "#061451",
     description:
-      "Use our cloud services to optimize IT for scalability, flexibility, and cost-efficiency.",
+      "Designing impactful presentations that communicate ideas clearly and professionally.",
     subTitle: "Presentations",
     textColor: "white",
     title: "06",
