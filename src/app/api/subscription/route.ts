@@ -1,7 +1,10 @@
 import { NextResponse } from "next/server";
 import Nodemailer from "nodemailer";
 import { MailtrapTransport } from "mailtrap";
-import { emailTemplate } from "../../../../email/template";
+import {
+  emailTemplate,
+  subscriptionTemplate,
+} from "../../../../email/template";
 
 const TOKEN = process.env.MAILTRAP_API!;
 
@@ -14,9 +17,9 @@ const transport = Nodemailer.createTransport(
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { organization, name, email, phone, business } = body;
+    const { email, name } = body;
 
-    if (!organization || !name || !email || !phone) {
+    if (!email && !name) {
       return NextResponse.json(
         { error: "Missing required fields" },
         { status: 400 }
@@ -24,7 +27,7 @@ export async function POST(req: Request) {
     }
 
     const sender = {
-      address: "hello@visyntro.com",
+      address: "subscribe@visyntro.com",
       name: "Registration Form",
     };
     const recipients = ["visyntroservices@gmail.com", email];
@@ -32,14 +35,8 @@ export async function POST(req: Request) {
     const emailContent = {
       from: sender,
       to: recipients,
-      subject: "New Registration Form Submission",
-      html: emailTemplate
-        .replace("{name}", name)
-        .replace("{organization}", organization)
-        .replace("{email}", email)
-        .replace("{phone}", phone)
-        .replace("{business}", business || "N/A")
-        .replace("{name}", name),
+      subject: "Visyntro Subscription",
+      html: subscriptionTemplate.replace("{name}", name),
       category: "Registration",
     };
 

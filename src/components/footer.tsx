@@ -4,6 +4,7 @@ import { Mail, Phone } from "lucide-react";
 import Link from "next/link";
 import { navLinks } from "../../constant/navLinks";
 import RegistrationForm from "./RegistrationForm";
+import SubscriptionForm from "./SubscriptionForm";
 
 const Footer = () => {
   return (
@@ -77,9 +78,10 @@ const Footer = () => {
             We will send you nice <br /> letter. No Spam.
           </p>
 
-          <Button className="bg-[#5674FD] hover:bg-[#5674FD] rounded-3xl text-white font-bold text-2xl py-6 mb-7">
-            Subscribe Now
-          </Button>
+          <SubscriptionForm
+            name="Subscribe Now"
+            className="bg-[#5674FD] hover:bg-[#5674FD] rounded-3xl text-white font-bold text-2xl py-6 mb-7"
+          />
           <h1 className="text-2xl font-semibold text-[#5674FD]">
             Follow Us On
           </h1>
