@@ -70,18 +70,9 @@ const SubscriptionForm = ({ name, className }: Props) => {
     }
   };
 
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsOpen(true);
-    }, 5000);
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <div>
-      <Dialog open={isOpen} onOpenChange={setIsOpen}>
+      <Dialog>
         <DialogTrigger asChild>
           <Button className={className}>{name}</Button>
         </DialogTrigger>
